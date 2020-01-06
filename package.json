@@ -1,0 +1,30 @@
+{
+  "name": "nerdcenter",
+  "version": "0.1.0",
+  "description": "Infrastructure for redirecting all traffic to codegy.de",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": {
+    "name": "Thorsten Boock",
+    "url": "https://codegy.de",
+    "organization": false
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^10.17.0",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-certificatemanager": "1.19.0",
+    "@aws-cdk/aws-iam": "1.19.0",
+    "@aws-cdk/aws-route53": "1.19.0",
+    "@aws-cdk/aws-route53-targets": "1.19.0",
+    "@aws-cdk/aws-s3": "1.19.0",
+    "@aws-cdk/aws-s3-deployment": "1.19.0",
+    "@aws-cdk/core": "1.19.0",
+    "aws-cdk": "1.19.0"
+  }
+}
